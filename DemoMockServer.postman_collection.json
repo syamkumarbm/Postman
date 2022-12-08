@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "a26f6ad4-308a-4cbe-bcfe-012f77bfdcb8",
+		"name": "DemoMockServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5274507"
+	},
+	"item": [
+		{
+			"name": "mock1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/mock1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"mock1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/mock1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"mock1"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\"status\", \"ok\"}"
+				}
+			]
+		},
+		{
+			"name": "mock2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/mock2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"mock2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/mock2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"mock2"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\"status\", \"not ok\"}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://4ef7158b-2237-4002-8649-62f6fbf18d46.mock.pstmn.io"
+		}
+	]
+}
